@@ -1,0 +1,22 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            ChainsAPM
+tagline:          Find the weak link.
+url:              http://chainsapm.github.io/chainsapm
+paginate:         1
+baseurl:          http://chainsapm.github.io/chainsapm/
+author:
+  name:           James Davis
+  url:            https://twitter.com/chainsapm
+  email:          james.l.davis@outlook.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/chainsapm/chainsapm/
