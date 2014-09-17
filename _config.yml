@@ -9,7 +9,7 @@ permalink:        pretty
 title:            ChainsAPM
 tagline:          Find the weak link.
 url:              http://www.chainsapm.com
-paginate:         1
+paginate:         5
 baseurl:          http://www.chainsapm.com/
 author:
   name:           James Davis
