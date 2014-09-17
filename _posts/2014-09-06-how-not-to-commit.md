@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How not to commit to GitHub
-abstract: Sometimes you forget that just because it feels like you know what you're doing, you might not. This is why I now have a commit that looks like this "WIP on master: 70a43e6 Committing changes that lead up to Issue #3"
 ---
 
 *Sometimes you forget that just because it feels like you know what you're doing, you might not.* This is why I now have a commit that looks like this "WIP on master: 70a43e6 Committing changes that lead up to Issue #3"
@@ -16,7 +15,7 @@ git stash
 
 A not so useful message came up and said that it was unable to log to the repo logs and then mashed in the command line was **WIP on master: 70a43e6 Committing changes that lead up to Issue #3**. I felt like this was a success so I closed my IDE and went home. Later in the evening I wanted to pull my stash down to my home PC.
 
-Well this is where I *completely* lost touch with what I thought stashing changes was. I won't repeat all that I learned, but if you're a person who is used to TFS and shelvesets, this is nothing like them. I was able to log into my remote machine only to find that I was unable to list the stash. So I tried the next logical thing and tried to apply the stash. This also did not work. ... panic.
+Well this is where I *completely* lost touch with what I thought stashing changes was. I won't repeat all that I learned, but if you're a person who is used to TFS and shelve-sets, this is nothing like them. I was able to log into my remote machine only to find that I was unable to list the stash. So I tried the next logical thing and tried to apply the stash. This also did not work. ... panic.
 
 Now, faced with losing a day of solid work and not knowing what to do I went back to Google. Every now and then when you start googling you get this sinking feeling that you don't know what you're asking for, or you're the only person IN THE ENTIRE WORLD to have this problem. Luckily only one of these paradigms are true.
 
@@ -47,4 +46,4 @@ BAM! All of my changes were back.  I instantly saved a copy of that directory be
 git push origin HEAD:master
 ```
 
-It was certainly ugly and I didn't want to lose my changes after hitting one of the best strides I had in a while. If you somehow stumble on this blog please pay more respect to the folks whos page's I ripped the answers from to cobble together this awful solution. :)
+It was certainly ugly and I didn't want to lose my changes after hitting one of the best strides I had in a while. If you somehow stumble on this blog please pay more respect to the folks who's page's I ripped the answers from to cobble together this awful solution. :)
